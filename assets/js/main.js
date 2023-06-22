@@ -1,4 +1,14 @@
 
+var cursor = document.createElement('div');
+cursor.classList.add('m');
+document.querySelector('html').appendChild(cursor);
+const mouse = document.querySelector('.m');
+document.addEventListener('mousemove', (event) => {
+    mouse.style.left = event.pageX + 'px';
+    mouse.style.top = event.pageY + 'px';
+});
+
+
 function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
@@ -29,7 +39,7 @@ function updateSoftSkills(profileData) {
 
 function updateHardSkills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills')
-    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
+    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li class="sks"><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"><div style="width:${skill.life}%; margin-top:${skill.ajuste}vw; height: 1vw; border-radius: 1vw; background: linear-gradient(45deg, white, #14d703); display: flex; font-size: 0.7vw; justify-content: center; align-items: center;color: black;text-align: center;">${skill.life}%</div></li>`).join('')
 }
 
 function updateLanguages(profileData) {

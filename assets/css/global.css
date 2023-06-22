@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    cursor: none;
 }
 
 @font-face {
@@ -23,17 +24,14 @@ a:hover {
 }
 
 .main {
-    margin: 1rem;
+    /* margin: 1rem; */
     padding: 1rem;
-    border: 1px solid #fff;
     border-radius: 1rem;
 }
 
-.main::before,
-.main::after {
+.main::before {
     content: '';
-    background-image: url('../img/background.svg');
-    background-repeat: no-repeat;
+    background: linear-gradient(279deg, #03084a, #25023029);
     background-size: contain;
     display: inline-block;
     position: fixed;
@@ -62,6 +60,31 @@ a:hover {
 
     .main::before,
     .main::after {
-        width: 70vw;
+        /* width: 70vw; */
     }
+}
+
+.m {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 3px white;
+    opacity: 0.8;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.m:before {
+    position: absolute;
+    background: #ffff;
+    content: '';
+    width: 15px;
+    height: 15px;
+    transform: translate(-8%, -8%);
+    border-Radius: 50%;
+    box-shadow: 0px 0px 8px 3px green;
+    opacity: 0.3;
+
 }

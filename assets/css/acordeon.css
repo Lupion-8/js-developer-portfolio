@@ -34,7 +34,7 @@
 }
 
 .acordeon .trigger:hover {
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .acordeon .trigger::after {
