@@ -58,33 +58,51 @@ a:hover {
         margin: 1rem auto;
     }
 
-    /* .main::before,
-    .main::after {
-        width: 70vw; 
-    }*/
+    .m {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background: white;
+        border-radius: 50%;
+        box-shadow: 0px 0px 8px 3px white;
+        opacity: 0.8;
+        z-index: 999;
+        pointer-events: none;
+    }
+    
+    .m:before {
+        position: absolute;
+        background: #ffff;
+        content: '';
+        width: 15px;
+        height: 15px;
+        transform: translate(-8%, -8%);
+        border-Radius: 50%;
+        box-shadow: 0px 0px 8px 3px green;
+        opacity: 0.3;
+    
+    }
 }
 
-.m {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    background: white;
-    border-radius: 50%;
-    box-shadow: 0px 0px 8px 3px white;
-    opacity: 0.8;
-    z-index: 999;
-    pointer-events: none;
+
+
+html::-webkit-scrollbar {
+    width: 0.8vw;
+}
+html::-webkit-scrollbar-thumb {
+    background-color: #03084a;
+}
+html::-webkit-scrollbar-track {
+    background: #f3fbfd;
 }
 
-.m:before {
-    position: absolute;
-    background: #ffff;
-    content: '';
-    width: 15px;
-    height: 15px;
-    transform: translate(-8%, -8%);
-    border-Radius: 50%;
-    box-shadow: 0px 0px 8px 3px green;
-    opacity: 0.3;
 
+@media only screen and (max-width: 768px) {
+    *{  cursor:auto ;}
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }

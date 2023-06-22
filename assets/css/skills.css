@@ -40,9 +40,24 @@
     align-items: center;
 }
 
+.lifes{
+    height: 1vw; border-radius: 1vw;
+    background: linear-gradient(45deg, white, #14d703);
+    display: flex; font-size: 0.7vw; justify-content: center;
+    align-items: center;color: black;text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
     .skills {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .lifes{  
+        font-size: 2vw;
+        height: 3vw;
     }
 }
