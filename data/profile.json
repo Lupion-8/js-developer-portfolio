@@ -17,19 +17,19 @@
         "name": "React",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png",
         "life": "20",
-        "gambiarra": "0.2"
+        "ajuste": "0.5"
       },
       {
         "name": "Javascript",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png",
         "life": "70",
-        "gambiarra": "0.5"
+        "ajuste": "0.5"
       },
       {
         "name": "Mongodb",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png",
         "life": "10",
-        "gambiarra": "0.5"
+        "ajuste": "0.5"
       }
     ],
     "softSkills": [
