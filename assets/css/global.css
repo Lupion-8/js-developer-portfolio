@@ -58,10 +58,10 @@ a:hover {
         margin: 1rem auto;
     }
 
-    .main::before,
+    /* .main::before,
     .main::after {
-        /* width: 70vw; */
-    }
+        width: 70vw; 
+    }*/
 }
 
 .m {
