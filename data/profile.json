@@ -10,7 +10,7 @@
       {
         "name": "Nodejs",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png",
-        "life": 5
+        "life": "10"
       },
       {
         "name": "Java",
