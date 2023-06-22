@@ -22,19 +22,25 @@
       {
         "name": "html",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png",
-        "life": "20",
+        "life": "95",
+        "ajuste": "0.5"
+      },
+      {
+        "name": "css",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png",
+        "life": "66",
         "ajuste": "0.5"
       },
       {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png",
-        "life": "20",
+        "life": "25",
         "ajuste": "0.8"
       },
       {
         "name": "Mongodb",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png",
-        "life": "10",
+        "life": "15",
         "ajuste": "0.5"
       }
     ],
