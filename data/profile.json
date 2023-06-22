@@ -7,6 +7,12 @@
   "email": "gabriel.q.s@hotmail.com",
   "skills": {
     "hardSkills": [
+        {
+        "name": "Javascript",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png",
+        "life": "70",
+        "ajuste": "0.5"
+      },
       {
         "name": "Nodejs",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png",
@@ -14,16 +20,16 @@
         "ajuste": "0.5"
       },
       {
+        "name": "html",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png",
+        "life": "20",
+        "ajuste": "0.5"
+      },
+      {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png",
         "life": "20",
         "ajuste": "0.8"
-      },
-      {
-        "name": "Javascript",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png",
-        "life": "70",
-        "ajuste": "0.5"
       },
       {
         "name": "Mongodb",
