@@ -9,7 +9,8 @@
     "hardSkills": [
       {
         "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png",
+        "life": 5
       },
       {
         "name": "Java",
